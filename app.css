@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Century Gothic", sans-serif;
+    
+}
+
+header {
+    margin-top: 100px;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+}
+
+main {
+    width: 100%;
+    max-width: 930px;
+    margin: 50px auto 25px;
+    
+}
+.container{
+    background-color: rgb(124, 145, 173);
+    border-radius: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom:10%;
+
+    
+}
+.addTODO {
+    margin-top: 30px;
+    margin: 50px auto 25px;
+    display: flex;
+    
+}
+
+.addTODO > div {
+    margin-top: 30px;
+    width: 70%;
+}
+
+.addTODO > div + div {
+    margin-top: 30px;
+    width: 25%;
+}
+select{
+    width: 30%;
+    margin-top: 30px;
+    border-radius: 10px;
+    border:0;
+    margin-right: 10%;
+}
+input[type=text] {
+    width: 100%;
+    padding: 20px 10px;
+    font-size: 14px;
+    border-radius: 10px;
+    border:0;
+    margin-left: 20%;
+}
+input[type=button]{
+    width:90%;
+    padding: 20px 10px;
+    font-size: 14px;
+    border-radius: 10px; 
+    border:0;
+    
+}
+.delbtn{
+    padding: 15px 10px;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.delbtn input[type=button]{
+    
+    width:100%;
+    font-size: 14px;
+    border:0;
+    border-radius: 10px; 
+   
+}
+.item {
+    margin: 10px 0 10px;
+    padding: 20px 10px;
+    font-size: 18px;
+    border:0;
+    background-color: rgb(233, 233, 233);
+    border-radius: 10px; 
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+.checkedTOdo {
+    opacity: 0.25;
+}
+
+.up_down{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    align-items: center;
+}
+
+.item_icon {
+    width: 15px;
+    height: 15px;
+    float: right;
+    margin-right: 4px;
+}
+
+.item_icon:hover {
+    cursor: pointer;
+}
+.item_icon_del {
+    width: 20px;
+    height: 20px;
+    float: right;
+}
+.item_icon_del:hover {
+    cursor: pointer;
+}
+.item_icon_down {
+    width: 15px;
+    height: 15px;
+    float: right;
+    margin-right: 4px;
+}
+.item_icon_down:hover {
+    cursor: pointer;
+}
+.yellow {
+    background-color: rgb(255, 255, 200);
+}
+
+.red {
+    background-color: rgb(255, 175, 175);
+}
+.checkbox{
+    width: 20px;
+    height: 20px;
+
+    
+    border: 0;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(149, 223, 186);
+    border-radius:30%;
+}
+
+
+.checkbox:checked {
+background-color: rgb(149, 149, 149);
+}
+.container input:checked ~ .checkmark:before {
+    display: block;
+  }
